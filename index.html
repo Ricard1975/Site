@@ -21,8 +21,8 @@
     </header>
     <section id="sobre">
         <h2>Sobre mim</h2>
-        <img src="C:\Users\Ricardo\Documents\GitHub\Site\MOSHED-2022-11-17-14-47-25zzB.png" alt="Imagem de foto de perfil"
-            title="Imagem do perfil">
+        <img src="C:\Users\Ricardo\Documents\GitHub\Site\MOSHED-2022-11-17-14-47-25zzB.png"
+            alt="Imagem de foto de perfil" title="Imagem do perfil">
         <article>
             <P>
                 Olá, sou Ricard artista plastico e neste momento estudando muito para programador...e muito mais coisas.
@@ -52,6 +52,35 @@
         <section id="contat">
             <h2>Contato</h2>
             <p>Tem um projeto em mente, entre em contato.</p>
+            <form action="">
+
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome" name="nome" required> <br>
+
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" name="email" required> <br>
+
+                <label for="telefone">Telefone: </label>
+                <input type="tel" id="telefone" name="telefone"> <br>
+
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="assunto">
+                    <option value="orcamento">Orçamento </option>
+                    <option value="duvida">Dúvidas </option>
+                    <option value="outro">Outros </option>
+                </select>
+
+                <br>
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="mensagem" id="mensagem" cols="20" rows="5" required></textarea>
+                <br>
+                <input type="checkbox" id="inscricao" name="inscricao">
+                <label for="incricao">Deseja receber minha newsletter? Fique por dentro. </label>
+                <br>
+                <input type="submit" value="Enviar mensagem">
+                <input type="date">
+
+            </form>
             <address>
                 E-mail: <a href="mailto:ricosoaresmm@gmail.com">ricosoaresmm@gmail.com</a> <br>
                 Tel: <a href="tel:+55489876 5432">+55489876 5432</a>
